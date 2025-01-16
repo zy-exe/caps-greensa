@@ -1,0 +1,258 @@
+/*** AWAL HOME ***/
+/********** Template CSS **********/
+:root {
+    --primary: #198754;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+}
+
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 600 !important;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    transition: .5s;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+
+/* OWL-CAROUSEL */
+/*** Header ***/
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 43, .7);
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width: 768px) {
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.page-header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-inner {
+    background: rgba(15, 23, 43, .7);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.booking {
+    position: relative;
+    margin-top: -100px !important;
+    z-index: 1;
+}
+
+/* AKHIR OWL-CAROUSEL */
+
+/* #hero {
+    background: linear-gradient(220deg, #006B39 0%, rgba(0, 0, 0, 0.79) 257.44%);
+    height: 100vh;
+    width: 100%;
+}
+
+.jumbotron {
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-tagline h1 {
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+
+}
+
+.hero-tagline p {
+    font-size: 18px;
+    color: #fafafa;
+    width: 90%;
+}
+
+.hero-tagline h4 {
+    color: #fafafa;
+    font-size: 18px;
+    line-height: 200%
+} */
+
+/* TC */
+#tc-content {
+    padding: 50px 0;
+}
+
+.tc-desc {
+    padding-bottom: 50px;
+}
+
+.tc-catalog-main {
+    padding-top: 50px;
+}
+
+#tc-content h2 {
+    color: #006B39;
+}
+
+#tc-content .card {
+    background-color: transparent;
+    display: inline-block;
+    /* box-shadow: 0px 6px 24px rgba(61, 61, 61, 0.15); */
+    height: 100%;
+    transition: all 0.5s;
+    width: 90%;
+}
+
+#tc-content .card p {
+    font-size: 14px;
+}
+
+#tc-content .card:hover {
+    box-shadow: 0px 16px 32px rgba(0, 255, 60, 0.15);
+    background: linear-gradient(220deg, #006B39 0%, rgba(0, 0, 0, 0.79) 257.44%);
+    transition: all .5s, ease-in;
+    transform: scale(1.15);
+}
+
+#tc-content .card:hover h5 {
+    color: #fafafa;
+    transition: all .5s, ease-in;
+}
+
+#tc-content .card:hover p {
+    color: #fafafa;
+    transition: all .5s, ease-in;
+}
+
+/* End TC */
+
+
+/* HOTEL */
+#hotel-content {
+    padding: 50px 0;
+    background: linear-gradient(107deg, #006B39 39.07%, #000 166.36%);
+}
+
+.hotel-desc {
+    padding-bottom: 50px;
+}
+
+.hotel-catalog-main {
+    padding-top: 50px;
+}
+
+#hotel-content h2 {
+    color: #fafafa;
+}
+
+#hotel-content h5 {
+    color: #fafafa;
+}
+
+#hotel-content p {
+    color: #fafafa;
+}
+
+
+.card-hotel {
+    background-color: transparent;
+    display: inline-block;
+    /* box-shadow: 0px 6px 24px rgba(61, 61, 61, 0.15); */
+    height: 100%;
+    transition: all 0.5s;
+    width: 90%;
+}
+
+.card-hotel p {
+    font-size: 14px;
+}
+
+
+.card-hotel:hover {
+    box-shadow: 0px 16px 32px rgba(245, 255, 248, 0.15);
+    background: rgba(181, 181, 181, 0.303);
+    transition: all .5s, ease-in;
+    transform: scale(1.15);
+}
+
+#hotel-content .card:hover h5 {
+    color: #000;
+    transition: all .5s, ease-in;
+}
+
+#hotel-content .card:hover p {
+    color: #000;
+    transition: all .5s, ease-in;
+}
+
+/* HOTEL */
+
+/*** AKHIR HOME ***/

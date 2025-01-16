@@ -1,0 +1,12 @@
+.notify {
+    align-items: flex-end !important;
+    z-index: 9999 !important;
+    /* margin-top: 60px; */
+
+}
+
+/* 
+.notify {
+    justify-content: center;
+    z-index: 9999 !important;
+} */

@@ -1,0 +1,21 @@
+/* .booking-2 {
+    position: relative;
+    margin-top: -50px !important;
+    z-index: 1;
+} */
+
+.catalog-tc p {
+    font-size: smaller;
+}
+
+.catalog-price {
+    font-size: smaller;
+}
+
+.navbar-filter {
+    z-index: 1;
+}
+
+.navbar-filterDropdown {
+    z-index: 1;
+}
